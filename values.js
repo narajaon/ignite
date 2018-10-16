@@ -33,7 +33,7 @@ const validWords = [
     "OWORLD",
     "WORLD",
     "TEST",
-]
+];
 
 const test = '......-...-..---.-----.-..-..-..';
 
@@ -41,4 +41,4 @@ module.exports = {
     test,
     validWords,
     values,
-}
+};

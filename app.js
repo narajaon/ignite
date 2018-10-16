@@ -4,15 +4,15 @@ const possibleWords = [];
 const CL = console.log
 
 const stringToMorse = (input) => {
-    const result = [];
+    let result = '';
 
     for (let i = 0; i < input.length; i++) {
         const res = values[input.charAt(i).toLowerCase()];
 
-        result.push(res);
+        result += res;
     }
 
-    return result.join('');
+    return result;
 }
 
 function getValidCombos(morse, values) {
@@ -31,7 +31,6 @@ function getValidCombos(morse, values) {
         }
 
         getValidCombos(toFind, values);
-
     });
 }
 
