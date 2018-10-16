@@ -1,0 +1,17 @@
+{
+  "name": "ignition",
+  "version": "1.0.0",
+  "description": "parsing morse message",
+  "main": "morse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "parsing"
+  ],
+  "author": "narajaon",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^10.12.0"
+  }
+}
